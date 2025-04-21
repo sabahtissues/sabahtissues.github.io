@@ -36,7 +36,13 @@
 
     @media (min-width: 769px) {
       .banner {
-        margin-top: 20px; /* Add margin only on larger screens */
+        margin-top: 20px; /* Add margin only on larger screens (desktop) */
+      }
+    }
+
+    @media (max-width: 768px) {
+      .banner {
+        margin-top: 0; /* No margin on mobile */
       }
     }
 
