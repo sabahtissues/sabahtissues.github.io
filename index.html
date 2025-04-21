@@ -6,8 +6,8 @@
   <title>Sabah Tissues | Coming Soon</title>
   <style>
     :root {
-      --primary: #143f6b;  /* Deep navy */
-      --secondary: #00b2ff;  /* Sky blue */
+      --primary: #143f6b;
+      --secondary: #00b2ff;
       --bg: #f0f8ff;
     }
     body {
@@ -54,11 +54,6 @@
     a:hover {
       color: var(--secondary);
     }
-    footer {
-      font-size: 0.9rem;
-      color: #555;
-      margin-top: 40px;
-    }
     .image-row {
       display: flex;
       justify-content: center;
@@ -72,6 +67,23 @@
       border-radius: 8px;
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     }
+    footer {
+      background-color: #143f6b;
+      color: white;
+      font-size: 0.9rem;
+      padding: 30px 20px;
+      max-width: 100%;
+      text-align: center;
+    }
+    footer p {
+      margin: 6px 0;
+    }
+    a {
+      color: white;
+    }
+    a:hover {
+      color: #00b2ff;
+    }
   </style>
 </head>
 <body>
@@ -80,6 +92,14 @@
     <h1>Sabah Tissues and Napkins Manufacturing LLC</h1>
     <h2>Best Value & Quality Tissues from the UAE</h2>
     <p>We manufacture and sell high-quality tissue products for the UAE and export internationally.</p>
+
+    <div class="image-row">
+      <img src="delivery.jpg" alt="Domestic Delivery Truck" />
+      <img src="shipping.jpg" alt="Cargo Shipping" />
+    </div>
+  </div>
+
+  <footer>
     <p>📧 
       <a href="mailto:info@sabahtissues.com">info@sabahtissues.com</a> | 
       <a href="mailto:sales@sabahtissues.com">sales@sabahtissues.com</a>
@@ -89,15 +109,7 @@
       <a href="tel:+971503883404">050 3883404</a>
     </p>
     <p>🌐 <a href="http://www.sabahtissues.com">www.sabahtissues.com</a></p>
-
-    <div class="image-row">
-      <img src="delivery.jpg" alt="Domestic Delivery Truck" />
-      <img src="shipping.jpg" alt="Cargo Shipping" />
-    </div>
-
-    <footer>
-      &copy; 2025 Sabah Tissues. All rights reserved.
-    </footer>
-  </div>
+    <p>&copy; 2025 Sabah Tissues. All rights reserved.</p>
+  </footer>
 </body>
 </html>
