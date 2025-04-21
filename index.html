@@ -29,10 +29,15 @@
 
     .banner {
       width: 100%;
-      max-width: 1200px; /* Set an appropriate max-width */
+      max-width: 1200px;
       height: auto;
       display: block;
-      margin: 20px auto 0; /* Add a top margin for space */
+    }
+
+    @media (min-width: 769px) {
+      .banner {
+        margin-top: 20px; /* Add margin only on larger screens */
+      }
     }
 
     .content {
